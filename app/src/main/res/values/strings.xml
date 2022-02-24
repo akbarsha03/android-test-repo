@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Colearn</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="error_view">Error View</string>
+    <string name="search_text_here">Search text here</string>
+    <string name="action">Action</string>
+    <string name="try_again">Try again</string>
+    <string name="no_result">No result</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Okay</string>
+    <string name="message">Message</string>
+    <string name="logout">Logout</string>
+    <string name="title">title</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="any_color">Any color</string>
+    <string name="black_and_white">black_and_white</string>
+    <string name="white">white</string>
+    <string name="black">black</string>
+    <string name="yellow">yellow</string>
+    <string name="orange">orange</string>
+    <string name="red">red</string>
+    <string name="purple">purple</string>
+    <string name="magenta">magenta</string>
+    <string name="green">green</string>
+    <string name="teal">teal</string>
+    <string name="blue">blue</string>
+    <string name="sort_by">Sort By:</string>
+    <string name="color_tones">Color tones:</string>
+    <string name="relevant">relevant</string>
+    <string name="latest">latest</string>
+    <string name="search">Search</string>
+    <string name="advanced_options">Advanced options</string>
+    <string name="retry">Retry</string>
+    <string name="add_to_favorites">Add to favorites</string>
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sort_by" />
+
+    <RadioGroup
+        android:id="@+id/sortGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/relevant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/relevant" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/latest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/latest" />
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/color_tones" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:id="@+id/colorGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/whiteColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/white" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/blackAndWhiteColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/black_and_white" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/blackColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/black" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/yellowColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yellow" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/orangeColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orange" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/redColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/red" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/purpleColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/purple" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/magentaColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/magenta" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/greenColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/green" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/tealColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teal" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:id="@+id/blueColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/blue" />
+        </RadioGroup>
+    </HorizontalScrollView>
+</LinearLayout>
