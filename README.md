@@ -10,3 +10,5 @@
 - Dagger
 - Kotlin
 - Usecase Repository pattern
+- Custom Image loader
+- Coroutines
